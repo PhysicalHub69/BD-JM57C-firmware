@@ -1,21 +1,30 @@
 Samsung BD-JM57C Firmware Dump
 
-This repo contains the raw firmware dump for the Samsung BD-JM57C Blu-ray player.
+This repository contains the raw firmware dump for the Samsung BD-JM57C Blu-ray player.
 Files Included:
 
-    main-firmware.bin — The actual raw binary firmware. Identical in content to main-firmware.txt, just with the correct .bin extension to show it’s machine code, not text.
+main-firmware.bin: The actual raw binary firmware. Identical in content to main-firmware.txt, but with the correct .bin extension to indicate it's machine code, not text.
 
-    main-firmware.txt — The same raw binary data, but saved with a .txt extension. If you open this in a text editor, you’ll see a mess of weird symbols because it’s not meant to be read as text.
+main-firmware.txt: The same raw binary data, saved with a .txt extension. Opening this in a text editor will display a sequence of non-printable characters, as it's not intended to be read as plain text.
 
-Why both?
+Why Both?
 
-Providing both files for convenience — whether you want to use it as a proper binary dump or accidentally open it in a text editor and freak out at the “vomit” of characters.
+Providing both formats for convenience:
+
+    Use main-firmware.bin for proper binary analysis or flashing purposes.
+
+    Use main-firmware.txt if you prefer to view the raw data in a text editor, though it won't be human-readable.
+
 Purpose:
 
-    For analysis, reverse engineering, or modding the firmware of the BD-JM57C
+This firmware dump is intended for:
 
-    To hunt region locks, discover hidden configs, or patch features
+    Analysis and reverse engineering.
+
+    Modding the firmware of the BD-JM57C.
+
+    Exploring region codes, hidden configurations, or other features.
 
 Disclaimer:
 
-Use responsibly. Redistribution or commercial use may violate Samsung’s terms and IP rights.
+This is the original firmware dump for personal use only. Redistribution or commercial use may violate Samsung's terms and intellectual property rights.
